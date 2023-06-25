@@ -1,0 +1,167 @@
+*{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1686472978656-f825ee0d2862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#container{
+
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#sub_container{
+    left: 350px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;  
+}
+ 
+#left{
+    
+    height: 150px;
+    width: 150px;
+    background-color: #f88e23;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#middle{
+    height: 150px;
+    width: 150px;
+    background-color:white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+#right{
+    
+    height: 150px;
+    width: 150px;
+    background-color: rgb(63, 219, 63);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    border: 2px solid black;
+    border-radius: 5px;
+  
+}
+
+
+#left h1{
+   
+     height: 70px;
+     width: 70px;
+     font-weight: bold;
+    font-size: 60px;
+    text-align-last: center;
+    position: absolute;
+    left: 35px;
+    opacity: 0.8;
+}
+
+
+#middle h1{
+    height: 70px;
+    width: 70px;
+    font-weight: bold;
+   font-size: 60px;
+   text-align-last: center;
+   position: absolute;
+   left: 35px;
+}
+
+#right h1{
+    height: 70px;
+    width: 70px;
+    font-weight: bold;
+   font-size: 60px;
+   text-align-last: center;
+   position: absolute;
+   left: 35px;
+}
+
+#am{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(33, 197, 234);
+    position: absolute;
+   left: 70%;
+   opacity: 0.8;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+
+#am h1{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+
+}
+
+#left p{
+    height: 20px;
+    width: 50px;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+    line-height: 2px;
+    
+}
+
+#middle p{
+    height: 20px;
+    width: 50px;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+    line-height: 2px;
+    
+}
+
+#right p{
+    height: 20px;
+    width: 50px;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+    line-height: 2px;
+    
+}
